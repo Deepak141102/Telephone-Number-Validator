@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>telephone-number-validator.freecodecamp.rocks</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Code SECTION  -->
+
+    <section class="firstsec">
+
+        <!-- SECTION'S HEADING  -->
+
+        <h1>freeCodeCamp<i class="fab fa-free-code-camp"></i></h1>
+        <h2>Telephone Number Validator</h2>
+
+        <!-- MOBILE LAYOUT SECTION  -->
+
+         <!-- HERE THE DIV OF OUTER-BODY OF IT  -->
+
+        <div class="outer-body">
+
+            <!-- HERE IS ITS SCREEN'S DIV  -->
+
+            <div class="screen">
+
+                <!-- AND THE CAMERA DIV IS HERE  -->
+
+                <div class="camera"></div>
+
+                <!-- THE VALIDATION AREA  -->
+
+                <input type="text" id="no-ref" name="pin" maxlength="10" size="10" required>
+                <label for="no-ref">Enter a Ten Digit NO..</label>
+
+                <!-- HERE IS THE DIV TO SHOW THE RESULT  -->
+
+                <div id="info"></div><br>
+            </div>
+            <!-- AND THE BUTTONS ARE HERE  -->
+
+            <div class="ctrl-btn">
+                <!-- FIRST IS CHECK BUTTON  -->
+        
+                <button class="btns check" onclick="verfying()">Check</button>
+                <!-- SECOND TO CLEAR ALL HISTORY OR RESULTS  -->
+                <button class="btns clear" onclick="clearall()">Clear</button>
+            </div>
+        </div>
+    </section>
+    <!-- AND THE SECTION AND HERE  -->
+    <script src="script.js"></script>
+</body>
+
+</html>

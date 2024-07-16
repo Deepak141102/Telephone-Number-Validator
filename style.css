@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* THE GOLOBAL DECLARATION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* BODY AND ITS DECLARTION */
+body {
+  background-color: #3b3b4f;
+}
+
+/* THE FORMATTING AREA OF OUTER-BODY OF PHONE  */
+
+.firstsec {
+  margin: auto;
+}
+
+.outer-body {
+  background: black;
+  width: 320px;
+  height: 75vh;
+  border-radius: 2rem;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+/* HERE IS THE SCREEN FORMATTING  */
+
+.screen {
+  background: rgb(230, 228, 228);
+  position: relative;
+  height: 60vh;
+  margin: auto;
+  top: 51px;
+  width: 81%;
+}
+
+/* HERE IS THE SCREEN FORMATTING */
+.camera {
+  width: 8%;
+  background: whitesmoke;
+  border-radius: 50%;
+  height: 3vh;
+  position: relative;
+  margin: auto;
+  z-index: 3;
+  top: -25px;
+}
+
+/* AND THE FORMATTING OF DATA ENTERY AREA  */
+input#no-ref {
+  position: relative;
+  width: 88%;
+  margin: 1rem;
+  height: 5vh;
+  top: 66px;
+  height: 40px;
+  color: rgb(54, 54, 53);
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* THE FOCUS FORMATTING OF INPUT FIELD  */
+input#no-ref:focus {
+  border-color: #4caf50;
+  outline: none;
+}
+
+/* LABEL FORMATTING OF INPUT  */
+label {
+  position: relative;
+  top: -24px;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: system-ui;
+  left: 38px;
+  font-variant: small-caps;
+}
+/* HERE THE BUTTONS FORMATTING AREA  */
+
+/* BUTTONS DIV FORMATTING  */
+div.ctrl-btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+/* BUTTONS FORMATTING  */
+button.btns {
+  background-color: cadetblue;
+  position: relative;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 7px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+/* BUTTONS HOVER HANDLING  */
+button.btns:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+/* RESULT SECTION'S FORMATTING  */
+#info {
+  position: relative;
+  text-align: center;
+  height: 33vh;
+  margin: auto;
+  top: 26px;
+  width: 84%;
+  color: black;
+  border: 2px red;
+  font-size: 1.5rem;
+  font-variant: small-caps;
+  overflow-y: auto;
+}
+
+/* HEADINGS FOMATING  */
+h1,
+h2 {
+  text-align: center;
+  color: aliceblue;
+  font-family: "Jost", sans-serif;
+  font-weight: 300;
+  font-size: 2.2vw;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  margin: auto;
+}
+
+@media (max-width: 380px) {
+  /* OUTER-BODY MEDIA FORMATTING  */
+  .outer-body {
+    width: 272px;
+    height: 75vh;
+  }
+  /* BUTTONS MEDIA FORMATTING  */
+  button.btns {
+    padding: 4px 20px;
+    margin: 2px -15px;
+  }
+  /* INPUT LABEL MEDIA FORMATTING */
+  label {
+    top: -24px;
+    font-size: 18px;
+    left: 20px;
+  }
+
+  /* HEADING MEDIA FORMATTING */
+  h1,
+  h2 {
+    font-size: 6.2vw;
+  }
+}
